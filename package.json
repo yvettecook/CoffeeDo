@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "coffee app.coffee -n"
+    "start": "coffee app.coffee -w"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
     "ejs-locals": "^1.0.2",
     "express": "^4.10.1",
     "mongoose": "^3.8.18"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1",
+    "zombie": "^2.1.1"
   }
 }
